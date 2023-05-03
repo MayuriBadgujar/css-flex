@@ -1,0 +1,26 @@
+/* parent container*/
+.container{
+    background-color: lightblue;
+    height:400px;
+    /*row format*/
+    display:flex;
+  /*  flex-direction: row-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;*/
+  flex-flow:row wrap;
+  justify-content: center;
+  align-content: center;
+  gap:10px 30px;
+
+}
+
+.container .item{
+    width:20%;
+    background-color: blue;
+    font-size: 20px;
+    color:blanchedalmond;
+    padding:20px;
+    border:1px solid black;
+    margin: 2px;
+    
+}
